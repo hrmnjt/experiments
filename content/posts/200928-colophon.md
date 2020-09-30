@@ -5,8 +5,8 @@ date: 2020-09-28T00:11:00+04:00
 tags: [ sttp ]
 ---
 
-Hi there! Let me start by re-iterating what you might already know i.e. 
-definition of the title.
+Hi there! Welcome to my blog. As part of customary first post, let me start by 
+re-iterating what you might already know i.e. definition of the title.
 
 > **col·o·phon** - a publisher's emblem or imprint, usually on the title page 
 > of a book.  
