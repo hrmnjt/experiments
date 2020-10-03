@@ -9,7 +9,7 @@ theme = "ezhil"
 copyright = "2020 © Harmanjeet Singh Nagi"
 
 # Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
+pygmentsstyle = "native"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
