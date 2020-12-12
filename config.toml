@@ -54,7 +54,7 @@ weight = 4
   """
   mainSection = "posts"
   showAllPostsOnHomePage = false
-  postsOnHomePage = 5
+  postsOnHomePage = 3
   tagsOverview = false
   showProjectsList = true
   projectsUrl = "https://github.com/hrmnjt"
