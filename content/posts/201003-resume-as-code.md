@@ -3,7 +3,7 @@ title: "Resume as Code (RaS)"
 description: "Journey on codifying and version controlling resume"
 date: 2020-10-03T23:33:13+04:00
 draft: false
-tags: [sttp, as-code]
+tags: [as-code]
 ---
 
 TL; DR - [hrmnjt/resume](https://github.com/hrmnjt/resume)

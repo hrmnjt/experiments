@@ -2,7 +2,7 @@
 title: "Boot Sequence Commencing"
 description: "Broadcasting secure thoughts to the world"
 date: 2020-09-28T00:11:00+04:00
-tags: [ sttp ]
+tags: [sttp]
 ---
 
 Hi there! Welcome to [`sttp://`]({{< ref "/" >}}). If you have landed here, 

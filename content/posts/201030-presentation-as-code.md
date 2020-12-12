@@ -3,7 +3,7 @@ title: "Presentation as Code (PaS)"
 description: "Journey on codifying and version controlling presentations"
 date: 2020-10-30T20:33:13+04:00
 draft: false
-tags: [sttp, as-code]
+tags: [as-code]
 ---
 
 > Are you lazy programmer who wants to make a rich presentation with cheap 
