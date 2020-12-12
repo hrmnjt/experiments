@@ -30,3 +30,22 @@ cp EXAMPLE_CONFIG config.toml
 Serve, check and repeat!
 
 ## Removing a submodule theme completely
+
+De-initializing submodule
+```bash
+git submodule deinit -f -- themes/THEME_NAME
+# git submodule deinit -f -- themes/ezhil
+```
+
+Removing module files from `.git` folder
+```bash
+rm -rf .git/modules/themes/THEME_NAME
+# rm -rf .git/modules/themes/ezhil
+```
+
+Removing theme submodule folder itself
+```bash
+git rm -rf themes/THEME_NAME
+# git rm -rf themes/ezhil
+```
+
