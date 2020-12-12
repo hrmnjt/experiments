@@ -1,69 +1,23 @@
-baseURL = "https://www.hrmnjt.dev/"
+
 languageCode = "en-us"
-title = "sttp://"
+theme = "cactus"
 
-publishDir = "docs"
+baseURL = "https://www.hrmnjt.dev"
+title = "sttp://secure-thought-transfer-protocol"
+copyright = "Harmanjeet Singh Nagi"
 
-theme = "ezhil"
+# disqusShortname = "example"
+# googleAnalytics = "UA-1234-5"
 
-copyright = "2020 © Harmanjeet Singh Nagi"
+# summaryLength = 2
 
-# Enable syntax highlighting.
-pygmentsstyle = "native"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-# Your Google analytics code.
-# googleAnalytics = "UA-123-45"
-# Your Disqus sortname.
-# disqusShortname = "localhost"
-
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 3
-
-# Number of characters to show in summary.
-summaryLength = 20
-
-[params]
-    # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Secure Thought Transfer Protocol"
-
-    # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
-
-    # Content types which are excludes Disqus comments.
-    # disableDisqusTypes = ["page"]
-
-    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-    featherIconsCDN = true
-
-    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-    # favicon = "icons/myicon.png"
-
-    # Switch to dark mode or auto detect mode from OS (Optional).
-    # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
-    mode = "dark" # "dark" or "auto"
-
-    # Custom CSS added to default styles. Files added to `static` folder is copied as it is to
-    # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
-    # you can specify custom css path as `css/custom.css`.
-    # customCSS = "css/custom.css"
-    # Custom CSS added to dark mode style.
-    customDarkCSS = "css/custom-dark.css"
-
-    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
-    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
-    # for example you may want to include external JS library.
-    # customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
-
-# Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
+name = "Writings"
 url = "/posts"
 weight = 2
 
@@ -77,25 +31,45 @@ name = "About"
 url = "/about"
 weight = 4
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    style = "native"
 
-# Social media links which shows up on site header.
-# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/hrmnjt"
+[params]
+  dateFormat = "2006-01-02"
+  colortheme = "dark" # dark, light, white, or classic
+  rss = true
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/hrmnjts"
+  # Home page settings
+  description = "Welcome to securely transfered thoughts brought to you by Harman. I'm a technology enthusiast who works @MajidAlFuttaim on system programming, analytical and transactional databases, yaml engineering and dataops."
+  mainSection = "posts"
+  showAllPostsOnHomePage = true
+  tagsOverview = false
+  showProjectsList = true
+  projectsUrl = "https://github.com/hrmnjt"
+  
+  # Post page settings
+  show_updated = false # default
 
-[[params.social]]
-name = "Mail"
-icon = "mail"
-url = "mailto:hrmnjt@hrmn.in"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/hrmnjt"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/hrmnjts"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://linkedin.com/in/hrmnjt"
+  [[params.social]]
+    name = "email"
+    link = "hrmnjt@hrmn.in"
 
+  [params.comments]
+    enabled = false # default
+    engine = "disqus" # more supported engines will be added.
 
-# Enable tags.
-[taxonomies]
-   tag = "tags"
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
