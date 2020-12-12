@@ -45,7 +45,13 @@ weight = 4
   rss = true
 
   # Home page settings
-  description = "Welcome to securely transfered thoughts brought to you by Harman. I'm a technology enthusiast who works @MajidAlFuttaim on system programming, analytical and transactional databases, yaml engineering and dataops."
+  description = """Welcome to securely transfered thoughts brought to you by 
+  Harman!
+  
+  I'm a technology enthusiast who works @MajidAlFuttaim on system 
+  programming, analytical and transactional databases, editing yaml  
+  and dataops.
+  """
   mainSection = "posts"
   showAllPostsOnHomePage = true
   tagsOverview = false
