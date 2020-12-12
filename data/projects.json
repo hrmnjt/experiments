@@ -1,0 +1,14 @@
+{
+    "list": [
+       {
+          "name":"Presentations as code (PaC)",
+          "url":"https://github.com/hrmnjt/way-to-go-present/",
+          "desc":"An approach to create presentations as code"
+       },
+       {
+          "name":"Resume as code (RaC)",
+          "url":"https://github.com/hrmnjt/resume/",
+          "desc":"An approach to create resume as code"
+       }
+    ]
+ }
