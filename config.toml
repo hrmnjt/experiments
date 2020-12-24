@@ -67,7 +67,7 @@ weight = 4
     link = "https://github.com/hrmnjt"
   [[params.social]]
     name = "twitter"
-    link = "https://twitter.com/hrmnjts"
+    link = "https://twitter.com/__hrmnjt__"
   [[params.social]]
     name = "linkedin"
     link = "https://linkedin.com/in/hrmnjt"
@@ -75,8 +75,8 @@ weight = 4
     name = "email"
     link = "hrmnjt@hrmn.in"
 
-  [params.comments]
-    enabled = false # default
-    engine = "disqus" # more supported engines will be added.
+  # [params.comments]
+  #   enabled = false # default
+  #   engine = "disqus" # more supported engines will be added.
 
   googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
