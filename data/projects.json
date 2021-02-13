@@ -1,14 +1,19 @@
 {
     "list": [
        {
-          "name":"Presentations as code (PaC)",
-          "url":"https://github.com/hrmnjt/way-to-go-present/",
-          "desc":"An approach to create presentations as code"
+          "name": "Presentations as code (PaC)",
+          "url": "https://github.com/hrmnjt/way-to-go-present/",
+          "desc": "An approach to create presentations as code"
        },
        {
-          "name":"Resume as code (RaC)",
-          "url":"https://github.com/hrmnjt/resume/",
-          "desc":"An approach to create resume as code"
+          "name": "Resume as code (RaC)",
+          "url": "https://github.com/hrmnjt/resume/",
+          "desc": "An approach to create resume as code"
+       },
+       {
+           "name": "[TODO] Notes to myself",
+           "url": "https://github.com/hrmnjt/notes-to-self",
+           "desc": "Create a habit for journaling"
        }
     ]
  }
