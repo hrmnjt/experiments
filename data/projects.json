@@ -11,6 +11,11 @@
           "desc": "An approach to create resume as code"
        },
        {
+          "name": "[WIP] VAM! (Vertica Access Management)",
+          "url": "https://github.com/hrmnjt/vam/",
+          "desc": "Codifying and automating access control for Vertica"
+       },
+       {
            "name": "[TODO] Notes to myself",
            "url": "https://github.com/hrmnjt/notes-to-self",
            "desc": "Create a habit for journaling"
