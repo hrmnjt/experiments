@@ -42,14 +42,15 @@ weight = 4
 [params]
   dateFormat = "2006-01-02"
   colortheme = "dark" # dark, light, white, or classic
+  css = ["css/custom.css"]
   rss = true
 
   # Home page settings
-  description = """Welcome to securely transfered thoughts brought to you by 
+  description = """Welcome to securely transfered thoughts brought to you by
   Harman!
-  
-  I'm a technology enthusiast who works @MajidAlFuttaim on system 
-  programming, analytical and transactional databases, editing yaml  
+
+  I'm a technology enthusiast who works @MajidAlFuttaim on system
+  programming, analytical and transactional databases, editing yaml
   and dataops.
   """
   mainSection = "posts"
@@ -58,7 +59,7 @@ weight = 4
   tagsOverview = false
   showProjectsList = true
   projectsUrl = "https://github.com/hrmnjt"
-  
+
   # Post page settings
   show_updated = false # default
 
