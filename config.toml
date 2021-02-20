@@ -1,83 +1,42 @@
 
-languageCode = "en-us"
-theme = "cactus"
-
 baseURL = "https://www.hrmnjt.dev"
-title = "sttp://secure-thought-transfer-protocol"
-copyright = "Harmanjeet Singh Nagi"
 
-# disqusShortname = "example"
-# googleAnalytics = "UA-1234-5"
+languageCode = "en-us"
+theme = "researcher"
 
-# summaryLength = 2
+title = "sttp://"
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Writings"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
-  [markup.highlight]
-    style = "native"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false          # enable KaTeX (https://katex.org/) globally
 
 [params]
-  dateFormat = "2006-01-02"
-  colortheme = "dark" # dark, light, white, or classic
-  css = ["css/custom.css"]
-  rss = true
+  author = "Harmanjeet Singh Nagi"
+  description = "Secure Thought Transfer Protocol by Harmanjeet Singh Nagi"
+#   favicon = "favicon.ico"  # path to a .ico to use as favicon
+#   logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "Secure Thoughts Transfer Protocol by hrmnjt"
+    url = "https://github.com/hrmnjt/"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "800px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
 
-  # Home page settings
-  description = """Welcome to securely transfered thoughts brought to you by
-  Harman!
+[permalinks]
+  "/" = "/:filename"
 
-  I'm a technology enthusiast who works @MajidAlFuttaim on system
-  programming, analytical and transactional databases, editing yaml
-  and dataops.
-  """
-  mainSection = "posts"
-  showAllPostsOnHomePage = false
-  postsOnHomePage = 3
-  tagsOverview = false
-  showProjectsList = true
-  projectsUrl = "https://github.com/hrmnjt"
+[menu]
+  [[menu.main]]
+    name = "whoami"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "posts"
+    url = "/posts"
+    weight = 2
 
-  # Post page settings
-  show_updated = false # default
-
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/hrmnjt"
-  [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/__hrmnjt__"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://linkedin.com/in/hrmnjt"
-  [[params.social]]
-    name = "email"
-    link = "hrmnjt@hrmn.in"
-
-  # [params.comments]
-  #   enabled = false # default
-  #   engine = "disqus" # more supported engines will be added.
-
-  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files

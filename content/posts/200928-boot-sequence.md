@@ -6,7 +6,7 @@ tags: [sttp]
 ---
 
 Hi there! Welcome to [`sttp://`]({{< ref "/" >}}). If you have landed here, 
-you wanted to know the startup sequence or [`whoami`]({{< ref "about" >}}).
+you wanted to know the startup sequence or [`whoami`]({{< ref "/" >}}).
 
 > **col·o·phon** - a publisher's emblem or imprint, usually on the title page 
 > of a book.  
