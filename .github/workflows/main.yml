@@ -8,7 +8,7 @@ name: Blog Update
 # you can specify events or can add a schedule for regularized builds
 on:
   push:
-    branches: [ master ] # denotes that "on push on master branch workflow will trigger"
+    branches: [ main ] # denotes that "on push on main branch workflow will trigger"
 
 jobs:
   build:
@@ -35,5 +35,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} # secret token added for deploy step
           publish_dir: ./public # publishing directory for hugo
-          cname: www.hrmnjt.dev # custom domain name 
+          cname: www.hrmnjt.dev # custom domain name
           commit_message: ${{ github.event.head_commit.message }}
