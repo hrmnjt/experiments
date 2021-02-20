@@ -6,7 +6,7 @@ draft: false
 tags: [hugo]
 ---
 
-## What?
+# Hugo: working with themes
 
 Personal websites are details which indicate the character and personality of 
 author. This goes a long way to explain why there exists around thousand of 

@@ -6,6 +6,8 @@ draft: false
 tags: [as-code]
 ---
 
+# Resume as Code (RaS)
+
 TL; DR - [hrmnjt/resume](https://github.com/hrmnjt/resume)
 
 This weekend I tasked myself to update my resume; I've dreaded the concept of 

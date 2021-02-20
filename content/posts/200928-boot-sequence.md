@@ -5,6 +5,8 @@ date: 2020-09-28T00:11:00+04:00
 tags: [sttp]
 ---
 
+# Boot Sequence Commencing
+
 Hi there! Welcome to [`sttp://`]({{< ref "/" >}}). If you have landed here, 
 you wanted to know the startup sequence or [`whoami`]({{< ref "/" >}}).
 

@@ -6,7 +6,7 @@ draft: false
 tags: [hugo]
 ---
 
-## What?
+# Hugo: publishing with Github Actions
 
 Notes on publishing static website (personal) created with Hugo on
 Github Pages using Github Actions

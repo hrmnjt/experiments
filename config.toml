@@ -4,11 +4,11 @@ baseURL = "https://www.hrmnjt.dev"
 languageCode = "en-us"
 theme = "researcher"
 
-title = "sttp://"
+title = "hrmnjt::sttp://"
 
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
-math = false          # enable KaTeX (https://katex.org/) globally
+math = false          # enable  KaTeX (https://katex.org/) globally
 
 [params]
   author = "Harmanjeet Singh Nagi"

@@ -6,7 +6,7 @@ draft: false
 tags: [vertica, homeserver]
 ---
 
-## Enter the problem
+# Vertica: docker(ized) development setup
 
 At (current) work, Vertica serves the analytical workloads and as with all 
 software, there are few things that we love about Vertica (speed) and few 
