@@ -1,5 +1,5 @@
 
-baseURL = "https://www.hrmnjt.dev"
+baseURL = "https://hrmnjt.dev"
 
 languageCode = "en-us"
 theme = "researcher"

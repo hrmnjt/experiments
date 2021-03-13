@@ -1,1 +1,1 @@
-Stream thoughts at [sttp://secure-thought-transfer-protocol](https://www.hrmnjt.dev)
+Stream thoughts at [sttp://secure-thought-transfer-protocol](https://hrmnjt.dev)
