@@ -56,13 +56,27 @@ style = "cyan"
 [aws]
 style = "yellow"
 
-# Git branch display style
+# Git display style
 [git_branch]
-symbol = "🌱"
+symbol = "🌱 "
 always_show_remote = true
+style = "purple"
 [git_commit]
 disabled = true
-
+[git_state]
+style = "yellow"
+[git_status]
+style = "red"
+conflicted = "conflicted"
+ahead = "ahead"
+behind = "behind"
+diverged = "diverged"
+untracked = "untracked"
+stashed = "stashed"
+modified = "modified"
+staged = '[++\($count\)](green)'
+renamed = "renamed"
+deleted = "deleted"
 
 # Python display style
 [python]
