@@ -1,0 +1,82 @@
+# ~/.config/starship.toml
+
+# Format and order for prompt
+format = """
+$username\
+$hostname\
+$kubernetes\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$golang\
+$python\
+$rust\
+$scala\
+$aws\
+$line_break\
+$status\
+$character"""
+
+# Wait 10 milliseconds for starship to check files under the current directory.
+scan_timeout = 30
+
+# Disable the blank line at the start of the prompt
+add_newline = true
+
+# Character for prompt
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
+
+# Username for prompt
+[username]
+style_user = "yellow"
+style_root = "red"
+format = "[$user]($style) "
+show_always = true
+
+# Hostname for prompt
+[hostname]
+ssh_only = false
+format =  "on [$hostname](red) "
+
+# Directory structure for prompt
+[directory]
+truncation_length = 8
+truncation_symbol = ""
+truncate_to_repo = false
+style = "cyan"
+
+# Kubernetes display style
+[kubernetes]
+style = "cyan"
+
+# AWS display style
+[aws]
+style = "yellow"
+
+# Git branch display style
+[git_branch]
+symbol = "🌱"
+always_show_remote = true
+[git_commit]
+disabled = true
+
+
+# Python display style
+[python]
+style = "red"
+python_binary = "python3"
+
+# Golang display style
+[golang]
+style = "red"
+
+# Rust display style
+[rust]
+style = "red"
+
+# Scala display style
+[scala]
+style = "red"
