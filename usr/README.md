@@ -1,5 +1,16 @@
+# Dotfiles
 
-## Shell prompt setup - Starship
+## Shell prompt setup - Starship.rs
+
+```bash
+mkdir -p ~/.config
+ln -sf ${PWD}/usr/starship.toml ~/.config/starship.toml
+```
+*Note: run this command from sttp repository root*
+
+
+<details>
+<summary>About starship.rs</summary>
 
 ```console
 Documentation:              https://starship.rs/  
@@ -17,14 +28,8 @@ sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 ```bash
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
 ```
+</details>
 
-### Setting up the configuration required
-
-```bash
-mkdir -p ~/.config
-ln -sf ${PWD}/usr/starship.toml ~/.config/starship.toml
-```
-*Note: run this command from sttp repository root*
 
 
 ## Bash `profile` and `bashrc` setup

@@ -5,6 +5,7 @@ Writings - [www.hrmnjt.dev](www.hrmnjt.dev)
 ## Contents
 
 ```bash
-opt             # General notes and docs
 src             # Random code that I try
+usr             # Dotfiles
+var             # General notes and docs
 ```
