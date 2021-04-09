@@ -1,5 +1,4 @@
 
-
 ## Shell prompt setup - Starship
 
 ```console
@@ -23,6 +22,15 @@ echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 ```bash
 mkdir -p ~/.config
-ln -sf ${PWD}/home/starship.toml ~/.config/starship.toml
+ln -sf ${PWD}/usr/starship.toml ~/.config/starship.toml
+```
+*Note: run this command from sttp repository root*
+
+
+## Bash `profile` and `bashrc` setup
+
+```bash
+ln -sf ${PWD}/usr/.profile ~/.profile
+ln -sf ${PWD}/usr/.bashrc ~/.bashrc
 ```
 *Note: run this command from sttp repository root*
