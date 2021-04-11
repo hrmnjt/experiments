@@ -1,3 +1,14 @@
 # gitignore
 
+## macOS defaults
 .DS_Store
+
+
+## Python defaults
+pyenv
+
+
+
+## cli-dwh-auditing
+vertica_python.log
+secrets.toml
