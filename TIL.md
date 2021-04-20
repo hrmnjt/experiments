@@ -9,6 +9,12 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 2021-04-20
+
+- https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html - 
+`#infrastructure` - Infrastructure wishlist
+
+
 ## 2021-04-19
 
 - https://youtu.be/FdNx1BJmzzg?t=1562 `#airflow` - What's new with Airflow 2.0 
