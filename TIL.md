@@ -1,4 +1,4 @@
-# too long; didn't read (TL;DR)
+# today I learned (TIL)
 
 Hello World!
 
@@ -14,7 +14,7 @@ Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 - https://youtu.be/FdNx1BJmzzg?t=1562 `#airflow` - What's new with Airflow 2.0 
 and Kubernetes (executor, operator and KEDA)
 
-## 1900-01-01 (start of time for `tl;dr`)
+## 1900-01-01 (start of time for `TIL`)
 
 - https://martinfowler.com/bliki/MonolithFirst.html - `#architecture`, 
 `#monolith`, `#microservices` - you shouldn't start your project with 
