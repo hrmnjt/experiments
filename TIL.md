@@ -9,25 +9,30 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
-## 2021-04-20
+## 20210421
+
+- https://jwiegley.github.io/git-from-the-bottom-up/ - `#git`, `#system-design` - 
+Book explaining internals of git; one step at a time
+
+## 20210420
 
 - https://erikbern.com/2021/04/19/software-infrastructure-2.0-a-wishlist.html - 
 `#infrastructure` - Infrastructure wishlist
 
 
-## 2021-04-19
+## 20210419
 
 - https://youtu.be/FdNx1BJmzzg?t=1562 `#airflow` - What's new with Airflow 2.0 
 and Kubernetes (executor, operator and KEDA)
 
-## 1900-01-01 (start of time for `TIL`)
+## 19000101 (start of time for `TIL`)
 
 - https://martinfowler.com/bliki/MonolithFirst.html - `#architecture`, 
 `#monolith`, `#microservices` - you shouldn't start your project with 
 microservices
 
-- https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook.pdf - `#architecture`, `#system-design` - 
-NASA's system engineering handbook
+- https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook.pdf 
+- `#architecture`, `#system-design` - NASA's system engineering handbook
 
 - https://news.ycombinator.com/item?id=26629994 - `#management`, `#agile` - 
 Why can't anyone tell me what story points equate to?
