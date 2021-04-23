@@ -18,7 +18,7 @@ conn_info = {
 
 with vertica_python.connect(**conn_info) as connection:
     cur = connection.cursor()
-    cur.execute("""select * from ETL_Admin.auditing_metadata""")
+    cur.execute("""select * from ETL_Admin.auditing_metadata order by 1""")
     rows = cur.fetchall()
 
     table = Table(title="Lag")
