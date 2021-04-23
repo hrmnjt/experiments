@@ -14,6 +14,9 @@ Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 - http://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf - `#programming` - Beej's guide 
 to C programming
 
+- https://youtu.be/nUEcdrs6mxE - `#system-design`, `#serverless` - analogy of
+post office and kubernetes
+
 ## 20210421
 
 - https://jwiegley.github.io/git-from-the-bottom-up/ - `#git`, `#system-design` - 
