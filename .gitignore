@@ -6,7 +6,8 @@
 
 ## Python defaults
 pyenv
-
+**/__pycache__/*
+*.pyc
 
 
 ## cli-dwh-auditing
