@@ -1,12 +1,11 @@
 # sttp://secure-thought-transfer-protocol
 
-Writings - [www.hrmnjt.dev](www.hrmnjt.dev)
-TL;DR - [tldr](./TLDR.md)
+[Writings @ www.hrmnjt.dev](www.hrmnjt.dev)
+[Today I Learned (til)](./TIL.md)
 
 ## Contents
 
 ```bash
-src         # Random code that I try
-usr         # Dotfiles that I use
-var         # Random notes that I take
+src         # coded secure thoughts
+usr         # preferences and dotfiles
 ```
