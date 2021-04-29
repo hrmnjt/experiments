@@ -9,6 +9,12 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210429
+
+- https://www.bottomupcs.com/ - `#system-design`, `#basics` - learn computer 
+science from bottom up
+
+
 ## 20210423
 
 - http://beej.us/guide/bgc/pdf/bgc_usl_c_1.pdf - `#programming` - Beej's guide 
