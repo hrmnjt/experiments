@@ -9,6 +9,12 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210501
+
+- https://ciechanow.ski/internal-combustion-engine/ - `#engineering`, `#eli5` - 
+low level explanation for internal combustion engines
+
+
 ## 20210429
 
 - https://www.bottomupcs.com/ - `#system-design`, `#basics` - learn computer 
