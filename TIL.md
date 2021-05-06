@@ -9,6 +9,11 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210506
+
+- https://mysteries.wizardzines.com/50ms-request.html `#zines`, `#tracing` - an 
+example to showcase tracing and improving HTTP requests
+
 ## 20210501
 
 - https://ciechanow.ski/internal-combustion-engine/ - `#engineering`, `#eli5` - 
