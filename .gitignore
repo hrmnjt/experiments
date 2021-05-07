@@ -13,3 +13,8 @@ pyenv
 ## cli-dwh-auditing
 vertica_python.log
 secrets.toml
+
+
+## cli-how-diverged
+secrets.yml
+output.log
