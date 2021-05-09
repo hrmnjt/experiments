@@ -21,3 +21,4 @@ alias loadbash="source ~/.bashrc"
 
 # Sourcing path for rustc
 export PATH="$HOME/.cargo/bin:$PATH"
+. "$HOME/.cargo/env"
