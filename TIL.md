@@ -9,6 +9,12 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210511
+
+- https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/ - 
+`#database`, `#postgres`, `#warehouse` - using postgres as analytical warehouse
+
+
 ## 20210506
 
 - https://mysteries.wizardzines.com/50ms-request.html `#zines`, `#tracing` - an 

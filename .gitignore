@@ -19,6 +19,7 @@ pyenv
 *.pyc
 
 
+
 ## cli-dwh-auditing
 vertica_python.log
 secrets.toml
@@ -27,6 +28,11 @@ secrets.toml
 ## cli-how-diverged
 secrets.yml
 output.log
+
+
+## dryrun
+src/dryrun-airflow-dockerized-official/logs/
+
 
 
 ### Rust ###
