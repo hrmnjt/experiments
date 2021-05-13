@@ -30,8 +30,9 @@ secrets.yml
 output.log
 
 
-## dryrun
-src/dryrun-airflow-dockerized-official/logs/
+## airflow-docker-setup
+src/airflow-docker-setup/logs
+src/airflow-docker-setup/.env
 
 
 
