@@ -39,3 +39,12 @@ ln -sf ${PWD}/usr/.profile ~/.profile
 ln -sf ${PWD}/usr/.bashrc ~/.bashrc
 ```
 *Note: run this command from sttp repository root*
+
+
+
+
+## Installations on hs1
+
+```bash
+sudo snap install docker
+sudo snap install microk8s

@@ -31,8 +31,8 @@ output.log
 
 
 ## airflow-docker-setup
-src/airflow-docker-setup/logs
-src/airflow-docker-setup/.env
+src/local-airflow/logs
+src/local-airflow/.env
 
 
 
