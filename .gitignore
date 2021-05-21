@@ -20,6 +20,10 @@ pyenv
 
 
 
+## cli-dq-audit
+src/cli-dq-audit/pyenv
+
+
 ## cli-dwh-auditing
 vertica_python.log
 secrets.toml
