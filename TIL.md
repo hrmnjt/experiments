@@ -9,6 +9,12 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210529
+
+- https://www.feynmanlectures.caltech.edu/flptapes.html - `#lectures`, 
+`#physics`, `#engineering`
+
+
 ## 20210511
 
 - https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/ - 
