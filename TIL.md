@@ -9,6 +9,14 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210605
+
+- https://pijul.org/posts/2021-06-03-on-fires/ - `#postmortem` - what happened 
+when datacenter had fires
+
+- https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/ - 
+`#networking`, `#eli5`, `#engineering` - eli5 for DNS lookup on linux
+
 ## 20210529
 
 - https://www.feynmanlectures.caltech.edu/flptapes.html - `#lectures`, 
