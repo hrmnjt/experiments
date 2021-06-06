@@ -9,6 +9,11 @@ are looking for.
 
 Some of tags: `#airflow`, `#architecture`, `#system-design`, `#databases`
 
+## 20210606
+
+- http://www.aaronsw.com/weblog/productivity - `#productivity` - how to increase 
+productivity
+
 ## 20210605
 
 - https://pijul.org/posts/2021-06-03-on-fires/ - `#postmortem` - what happened 
